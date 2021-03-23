@@ -53,5 +53,5 @@ Création du schéma à partir de la base SQLite: [dbschema.com](https://dbschem
 ## Evolutions
 - Finaliser les documentations de fonctions en y ajoutant les signatures
 - Utilisation de threads dans le programme principal pour pouvoir sortir proprement de la boucle infinie  
-- Utilisation de `try ... catch ...` lors des accès à la base pour gérer les problèmes éventuels
+- Utilisation de `try ... except ...` lors des accès à la base pour gérer les problèmes éventuels
 - Délocaliser les paramètres et les entrées dans un ou plusieurs fichiers dédiés
