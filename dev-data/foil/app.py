@@ -4,7 +4,7 @@ import time
 import sqlite3
 
 MAX_MEASUREMENTS = 4  # Nombre maximal de mesures en base par station
-BACKUP_PERIOD = 2  # Nombre de mesure après lesquelles on fait une sauvegarde
+BACKUP_PERIOD = 2  # Nombre de mesures après lesquelles on fait une sauvegarde
 
 stations = [410, 307, 432]
 db_name = 'wind.db'

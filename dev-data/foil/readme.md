@@ -28,8 +28,10 @@ Création et manipulation de la base de données SQLite:
 
 ## Base de données: SQLite
  
-BDD: `wind.db`
- 
+BDD:  
+`wind.db`
+
+![schéma de la base de données](wind_db_model.png)
  
 ### Documentation
 [SQLite](https://sqlite.org/docs.html)  
@@ -42,11 +44,14 @@ Client graphique pour SQLite: [sqlitebrowser](https://sqlitebrowser.org/)
 
 Client en ligne de commande pour SQLite: `sqlite3`, `sqlite3 db_name`  
 sortie du client `.quit`
+
+### Reverse engineering
+Création du schéma à partir de la base SQLite: [dbschema.com](https://dbschema.com/)
  
  
  
 ## Evolutions
 - Finaliser les documentations de fonctions en y ajoutant les signatures
 - Utilisation de threads dans le programme principal pour pouvoir sortir proprement de la boucle infinie  
-- Utilisation de `try ... catch ...` lors des accès à la base pour gérer les problèmes éventuels
+- Utilisation de `try ... except ...` lors des accès à la base pour gérer les problèmes éventuels
 - Délocaliser les paramètres et les entrées dans un ou plusieurs fichiers dédiés
